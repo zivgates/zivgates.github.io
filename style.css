@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+body{
+ text-align: center;
+ font-size: 10px;
+ background-color: black;
+ background-image: url(night.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ border: 5px outset white;
+ color: white;
+ animation: fadeIn 4s;
+}
+input{
+  border: 5px outset white;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+button{
+  border: 5px outset white;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
