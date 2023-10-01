@@ -1,4 +1,4 @@
-console.log("Hello from scripti.js!");
+
 
 function about() {
     document.getElementById("text1").textContent = "Hello, Welcome To Zivgates";
@@ -6,7 +6,7 @@ function about() {
     document.getElementById("text3").textContent = "This is the direct replacement to zvqle's realm, so this will be my main focus from now on.";
     document.getElementById("text4").textContent = "I have large plans for this website, so make sure to follow my github to see more!";
     document.getElementById("text5").textContent = "";
-    // Your code for the "about" button functionality goes here
+    
 }
 
 function aboutMe() {
@@ -15,7 +15,7 @@ function aboutMe() {
     document.getElementById("text3").textContent = "I also enjoy talking politics, and random geography stuff.";
     document.getElementById("text4").textContent = "Visit My Twitter, Github, And Youtube To see What I Make.";
     document.getElementById("text5").textContent = "🇸🇴/🇺🇸";
-    // Your code for the "about" button functionality goes here
+    
 }
 
 function clearContent() {
